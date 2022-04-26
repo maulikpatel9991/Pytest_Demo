@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="2" time="0.047" timestamp="2022-04-21T11:26:07.816352" hostname="BTZVBK3"><testcase classname="test_Demo_05" name="test_divisible_by_3" time="0.001" /><testcase classname="test_Demo_05" name="test_divisible_by_6" time="0.001"><failure message="assert (39 % 6) == 0">input_value = 39
+
+    def test_divisible_by_6(input_value):
+&gt;      assert input_value % 6 == 0
+E      assert (39 % 6) == 0
+
+test_Demo_05.py:20: AssertionError</failure></testcase></testsuite></testsuites>
